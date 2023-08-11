@@ -1,0 +1,9 @@
+[0430/205901.321:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[0430/205901.446:ERROR:viz_main_impl.cc(162)] Exiting GPU process due to errors during initialization
+[0430/205901.565:ERROR:gpu_init.cc(441)] Passthrough is not supported, GL is disabled
+[0430/213008.228:WARNING:spdy_session.cc(3505)] Received HEADERS for invalid stream 23
+[0430/213120.668:WARNING:spdy_session.cc(3452)] Received WINDOW_UPDATE for invalid stream 43
+[0430/213120.670:WARNING:spdy_session.cc(3452)] Received WINDOW_UPDATE for invalid stream 45
+[0430/213120.670:WARNING:spdy_session.cc(3452)] Received WINDOW_UPDATE for invalid stream 47
+[0430/213120.674:WARNING:spdy_session.cc(3452)] Received WINDOW_UPDATE for invalid stream 49
+[0430/213120.675:WARNING:spdy_session.cc(3452)] Received WINDOW_UPDATE for invalid stream 51
