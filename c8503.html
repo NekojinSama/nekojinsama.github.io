@@ -61,22 +61,29 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="./assets/images/csc8502.png" class="img-responsive" alt="">
+        <img src="./assets/images/Project3.png" class="img-responsive" alt="">
         <div class="card-container">
           <div class="text-center">
             <h1 class="h2">003: Physics and AI Project</h1>
           </div>
-          <p>This project uses a graphics engine built from scratch utilising OpenGL. This project was developed as the part of university project. This project helped me learn concepts of OpenGL.</p>
+          <p>This project uses a physics engine built from scratch along with some AI features. The project was developed as the part of university project which helped me learn concepts of how game engine works.</p>
+          <p>The aim of this project is to understand the aspects of a game engine and put it to use. However, it should be noted that the project is not a game but my understanding of how certian features in game works.</p>
           <div class="col-md-6">
             <h3 class="template-title-example">Concepts learned during this project:</h3>
-              <li>View Matrix</li>
-              <li>Texture Mapping</li>
-              <li>Transperancy and Depth</li>
-              <li>Forward Rendering</li>
-              <li>Scene Graph and Scene Management</li>
-              <li>Index Buffers</li>
-              <li>Skeletal Animation</li>
-              <li>Real-Time Lighting</li>
+              <li>Physics</li>
+              <ul>
+                <li>Raycasting</li>
+                <li>Linear Motion</li>
+                <li>Angular Motion</li>
+                <li>Collision Detection</li>
+                <li>Collision Response</li>
+                <li>Constraints and Solvers</li>
+              </ul>
+              <li>AI</li>
+              <ul>
+                <li>State Machine</li>
+                <li>Path Finding</li>
+              </ul>
             </br>
           </div>
           <!-- <blockquote>
@@ -91,24 +98,27 @@
       <div class="col-md-8 col-md-offset-2 section-container-spacer">
         <div class="row">
           <div class="col-xs-12 col-md-6">
-            <center><img width="100%" height="400" src="./assets/images/csc8502-1.gif" class="img-responsive" alt=""></center>
-            <p class="text-center">Terrain Overview</p>
+            <center><img width="100%" height="400" src="./assets/images/csc8503-1.gif" class="img-responsive" alt=""></center>
+            <p class="text-center">Destroy on Collision</p>
           </div>
           <div class="col-xs-12 col-md-6">
-            <center><img width="100%" height="400" src="./assets/images/csc8502-2.gif" class="img-responsive" alt=""></center>
-            <p class="text-center">Real-Time Lighting</p>
+            <center><img width="100%" height="400" src="./assets/images/csc8503-2.gif" class="img-responsive" alt=""></center>
+            <p class="text-center">AI Pathfinding</p>
           </div>
           <div class="col-xs-12 col-md-6">
-            <center><img width="100%" height="400" src="./assets/images/csc8502-4.gif" class="img-responsive" alt=""></center>
-            <p class="text-center">Character Animation</p>
+            <center><img width="100%" height="400" src="./assets/images/csc8503-3.gif" class="img-responsive" alt=""></center>
+            <p class="text-center">Behaviour State</p>
           </div>
         </div>
         <h3 class="template-title-example">Project Highlights:</h3>
-        <p>The project enabled me to accumulate a substantial amount of knowledge, which was both impressive and provided a comprehensive introduction to various facets of the graphics pipeline. For example generating textures using splat maps, implementation of lights and engaging with a graphics API about which I had no prior familiarity. The key insight I've gained from this project is that although I acknowledge the potential for further implementation, my awareness of the improvements I would introduce reflects my personal growth.</p>
+        <p>The physics component incorporates the utilization of Newtonian physics, alongside collision detection and resolution systems, to replicate physically accurate interactions among objects and within the environment. In terms of game mechanics, different type of collision boxes were made using the concept of layers in Unity. Another feature implemented was adding constraints to simulate opening of gate.</p>
+        <p>AI was demonstrated in various forms, ranging from basic state machines responsible for managing moving platforms to AI adversaries employing behavior trees. Behavior trees enable the modeling of intricate behaviors and seamless transitions between them. Additionally, these AI entities made use of a straightforward pathfinding grid, featuring an implementation of the A* pathfinding algorithm.</p>
         <h3 class="template-title-example">Problems faced during project:</h3>
-        <p>Problems which I faced during this project would be creating a proper rendering pipeline for different meshes, porting meshes from Unity to msh files. Learning to make a proper pipeline functioning took lots of time which could've been used to polish other aspects like having lights implemented on the imported assets. </p>
+        <p>Problems I faced while making A* pathfinding was that the Goose won't move to a certain point in the path and cause vector subscript out of range error. It was solved by increasing the radius which it considers a point and decreasing the speed at which it moves. </p>
         <h3 class="template-title-example">Project Showcase:</h3>
-        <center></p><iframe width="100%" height="400" src="https://www.youtube.com/embed/pwkJQybwczg?si=3fO-gzeyUKLJxK38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></center>
+        <center></p>
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/JRBptyqvpQU?si=uYBbjn2nVajSAAG2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </center>
       </div>
       <div class="col-xs-12">
         
