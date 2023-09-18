@@ -61,20 +61,21 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="./assets/images/Project4.png" class="img-responsive" alt="">
+        <img src="./assets/images/Project5.png" class="img-responsive" alt="">
         <div class="card-container">
           <div class="text-center">
             <h1 class="h2">001: The Enigma Chronicles</h1>
           </div>
-          <p>The project was developed as the part of university team project which helped me understanding how a game development team might work. The aim was to create a Splatoon-like multiplayer FPS game with objectives to capture in a small arena map.</p>
-          <p>In terms of my contribution, I created the Audio system using tools like dr_wav and OpenAL. Another contribution by me is the User Interface for the game.</p>
-          
+          <p>The project was developed for my dissertation topic "Addressing and Mitigating Cognitive Bias with Serious Games", this game was made in Unreal Engine 5. In "The Enigma Chronicles" players embark on a challenging journey through a series of floating crystalline platforms, aiming to reach a designated endpoint while navigating various obstacles and hazards.</p>
+          <p>The duration for completing this project was two months. This project showcases my ability to understand a game engine and make a game from scratch.</p>
+          <h3 class="template-title-example">Game Loop:</h3>
+          <p>The game is divided into two parts: The tutorial part and the Time challenge. The tutorial part walks through different hazards which can be seen over the game like avoiding boulders, dodging spikes and jumping on platforms. It also helps in getting an idea of the respawn portal function. After the tutorial comes the timed challenge where players are made to complete the game in as minimum time as possible. The timer doesn’t reset when the players fall from the platform making them complete the game with fewer risks and fewer errors.</p>
           <!-- <blockquote>
             <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
             <small class="pull-right">Irina Martin</small>
           </blockquote> -->
         </div>
-      </div>
+      
 
       
       
@@ -82,32 +83,29 @@
         <div class="row">
         <h3 class="template-title-example">Project Gallery:</h3>
           <div class="col-xs-12 col-md-6">
-            <center><img width="100%" height="400" src="./assets/images/csc8507-1.gif" class="img-responsive" alt=""></center>
-            <p class="text-center">Main Menu UI</p>
+            <center><img width="100%" height="400" src="./assets/images/csc8599-1.gif" class="img-responsive" alt=""></center>
+            <p class="text-center">Rolling Boulder</p>
           </div>
           <div class="col-xs-12 col-md-6">
-            <center><img width="100%" height="400" src="./assets/images/csc8507-2.gif" class="img-responsive" alt=""></center>
-            <p class="text-center">Local Multiplayer Gameplay</p>
+            <center><img width="100%" height="400" src="./assets/images/csc8599-2.gif" class="img-responsive" alt=""></center>
+            <p class="text-center">Collecting Checkpoint</p>
           </div>
           <div class="col-xs-12 col-md-6">
-            <center><img width="100%" height="400" src="./assets/images/csc8507-3.gif" class="img-responsive" alt=""></center>
-            <p class="text-center">Debug Mode</p>
+            <center><img width="100%" height="400" src="./assets/images/csc8599-3.gif" class="img-responsive" alt=""></center>
+            <p class="text-center">Spikes</p>
           </div>
         </div>
         <h3 class="template-title-example">Project Highlights:</h3>
-        <p>The Audio System used two tools: dr_wav and OpenAL. To implement OpenAL and dr_wav in our project we had to update the CMakeList to properly load in the library and also have the .dll files in the executable folder. We first started off with making a simple audio play in the scene. To do this we made an audio device, context, sources, listener and buffer. The device is for getting the audio playback device, context was made to specify the audio environment it will use, sources were made on the player to generate audio while moving and also the listener was attached to the player. To create an audio buffer we used “dr_wav”, we made a struct which holds the audio information. This was later updated into an audio system to utilise the 32 buffer limit by introducing audio play radius and priority.</p>
-        <p>The User Interface was created using ImGUI. It was integrated into our game through installing the relevant files from GitHub (imgui_impl_opengl3.cpp etc.) and building them into the CoreClasses project of our game through CMake.</p>
-        <h3 class="template-title-example">Future improvements:</h3>
-        <p>The Audio System could've been improved by adding sound triggers, adding global sound. Another thing which could've been added would be streaming audio files which are too large to fit in memory.</p>
-        <p>As for User Interface, the improvements could've been the properly scaled UI in game. Another improvement can be adding custom textures in Menu.</p>
+        <p>The project was designed with the requirements of mitigating biases. This was achieved by using "Learning Mechanics - Game Mechanics" of the game and also a post game survey was conducted. The environmental hazzards introduced in the game like moving platforms, rolling boulders, spikes etc. had their own learning curve and also addressed biases.</p>
+        <h3 class="template-title-example">Known Bugs/Future improvements:</h3>
+        <p>There is a bug in menu interface which occurs when the game is paused and players head to controls page. This can be fixed by properly managing the menu system to keep track on which menu is drawn.</p>
+        <p>Future improvements could be adding audio cues to various hazzards which can also help in creating awareness. Another Improvement can be more UI added to the game which helps players to know which direction they need to go after respawning. Apart from that a new character model and more levels can be introduced to make the game fun and challenging.</p>
         <h3 class="template-title-example">Project Showcase:</h3>
         <center></p>
           <iframe width="100%" height="400" src="https://www.youtube.com/embed/eoGSgwU9u-c?si=ginv1BjyOlF-kNEt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </center>
       </div>
-      <div class="col-xs-12">
-        
-      </div>
+    </div>
       
     </div>
   </div>
